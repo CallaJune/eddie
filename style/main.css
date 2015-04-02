@@ -72,15 +72,15 @@ h1.title {
     font-size: 13px;
     line-height: 13px;
     text-align: center;
-    color: #eee4da; }
+    color: #869de0; }
   .score-container .score-addition, .best-container .score-addition {
     position: absolute;
     right: 30px;
-    color: red;
+    color: blue;
     font-size: 25px;
     line-height: 25px;
     font-weight: bold;
-    color: rgba(119, 110, 101, 0.9);
+    color: rgba(134, 157, 224, 0.9);
     z-index: 100;
     -webkit-animation: move-up 600ms ease-in;
     -moz-animation: move-up 600ms ease-in;
@@ -163,7 +163,7 @@ hr {
     right: 0;
     bottom: 0;
     left: 0;
-    background: rgba(238, 228, 218, 0.5);
+    background: rgba(134, 157, 224, 0.5);
     z-index: 100;
     text-align: center;
     -webkit-animation: fade-in 800ms ease 1200ms;
@@ -187,15 +187,15 @@ hr {
       border-radius: 3px;
       padding: 0 20px;
       text-decoration: none;
-      color: #FFCCCC;
+      color: #869de0;
       height: 40px;
       line-height: 42px;
       margin-left: 9px; }
       .game-container .game-message a.keep-playing-button {
         display: none; }
     .game-container .game-message.game-won {
-      background: rgba(237, 194, 46, 0.5);
-      color: #FFCCCC; }
+      background: rgba(134, 157, 224, 0.5);
+      color: #fff; }
       .game-container .game-message.game-won a.keep-playing-button {
         display: inline-block; }
     .game-container .game-message.game-won, .game-container .game-message.game-over {
@@ -220,7 +220,7 @@ hr {
   margin-right: 15px;
   float: left;
   border-radius: 3px;
-  background: rgba(238, 228, 218, 0.35); }
+  background: rgba(134, 157, 224, 0.35); }
   .grid-cell:last-child {
     margin-right: 0; }
 
@@ -307,7 +307,7 @@ hr {
   transition-property: transform; }
   .tile .tile-inner {
     border-radius: 3px;
-    background: #eee4da;
+    background: #869de0;
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
@@ -317,70 +317,38 @@ hr {
     font-size: 0px; }
   .tile.tile-2 .tile-inner {
     background-image: url(1.png);
-    box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0), inset 0 0 0 1px rgba(255, 255, 255, 0); }
+    box-shadow: 0 0 30px 10px rgba(134, 157, 224, 0), inset 0 0 0 1px rgba(255, 255, 255, 0); }
   .tile.tile-4 .tile-inner {
     background-image: url(2.jpg);
     ;
-    box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0), inset 0 0 0 1px rgba(255, 255, 255, 0); }
+    box-shadow: 0 0 30px 10px rgba(134, 157, 224, 0), inset 0 0 0 1px rgba(255, 255, 255, 0); }
   .tile.tile-8 .tile-inner {
-    color: #FFCCCC;
+    color: #869de0;
     background-image: url(3.png);
     }
   .tile.tile-16 .tile-inner {
-    color: #FFCCCC;
+    color: #869de0;
     background-image: url(4.jpg);
     }
   .tile.tile-32 .tile-inner {
-    color: #FFCCCC;
+    color: #869de0;
     background-image: url(5.jpg);
     }
   .tile.tile-64 .tile-inner {
-    color: #FFCCCC;
+    color: #869de0;
     background-image: url(6.png);
     background-size:107px 107px;}
   .tile.tile-128 .tile-inner {
-    color: #FFCCCC;
+    color: #869de0;
     background-image: url(7.jpg);
-    box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0.2381), inset 0 0 0 1px rgba(255, 255, 255, 0.14286);
+    box-shadow: 0 0 30px 10px rgba(134, 157, 224, 0.2381), inset 0 0 0 1px rgba(255, 255, 255, 0.14286);
     font-size: 0px; }
     @media screen and (max-width: 520px) {
       .tile.tile-128 .tile-inner {
         font-size: 0px; } }
-  .tile.tile-256 .tile-inner {
-    color: #FFCCCC;
-    background-image: url(8.jpg);
-    box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0.31746), inset 0 0 0 1px rgba(255, 255, 255, 0.19048);
-    font-size: 0px; }
-    @media screen and (max-width: 520px) {
-      .tile.tile-256 .tile-inner {
-        font-size: 0px; } }
-  .tile.tile-512 .tile-inner {
-    color: #FFCCCC;
-    background-image: url(9.png);
-    box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0.39683), inset 0 0 0 1px rgba(255, 255, 255, 0.2381);
-    font-size: 0px; }
-    @media screen and (max-width: 520px) {
-      .tile.tile-512 .tile-inner {
-        font-size: 0px; } }
-  .tile.tile-1024 .tile-inner {
-    color: #FFCCCC;
-    background-image: url(10.jpg);
-    box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0.47619), inset 0 0 0 1px rgba(255, 255, 255, 0.28571);
-    font-size: 0px; }
-    @media screen and (max-width: 520px) {
-      .tile.tile-1024 .tile-inner {
-        font-size: 15px; } }
-  .tile.tile-2048 .tile-inner {
-    color: #FFCCCC;
-    background-image: url(11.jpg);
-    box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0.55556), inset 0 0 0 1px rgba(255, 255, 255, 0.33333);
-    font-size: 0px; }
-    @media screen and (max-width: 520px) {
-      .tile.tile-2048 .tile-inner {
-        font-size: 0px; } }
   .tile.tile-super .tile-inner {
-    color: #FFCCCC;
-    background-image: url(11.jpg);
+    color: #869de0;
+    background-image: url(7.jpg);
     font-size: 0px; }
     @media screen and (max-width: 520px) {
       .tile.tile-super .tile-inner {
@@ -500,7 +468,7 @@ hr {
   border-radius: 3px;
   padding: 0 20px;
   text-decoration: none;
-  color: #FFCCCC;
+  color: #869de0;
   height: 40px;
   line-height: 42px;
   display: block;
@@ -573,7 +541,7 @@ hr {
       right: 0;
       bottom: 0;
       left: 0;
-      background: rgba(238, 228, 218, 0.5);
+      background: rgba(134, 157, 224, 0.5);
       z-index: 100;
       text-align: center;
       -webkit-animation: fade-in 800ms ease 1200ms;
@@ -597,15 +565,15 @@ hr {
         border-radius: 3px;
         padding: 0 20px;
         text-decoration: none;
-        color: #FFCCCC;
+        color: #869de0;
         height: 40px;
         line-height: 42px;
         margin-left: 9px; }
         .game-container .game-message a.keep-playing-button {
           display: none; }
       .game-container .game-message.game-won {
-        background: rgba(237, 194, 46, 0.5);
-        color: #FFCCCC; }
+        background: rgba(134, 157, 224, 0.5);
+        color: #869de0; }
         .game-container .game-message.game-won a.keep-playing-button {
           display: inline-block; }
       .game-container .game-message.game-won, .game-container .game-message.game-over {
@@ -630,7 +598,7 @@ hr {
     margin-right: 10px;
     float: left;
     border-radius: 3px;
-    background: rgba(238, 228, 218, 0.35); }
+    background: rgba(134, 157, 224, 0.35); }
     .grid-cell:last-child {
       margin-right: 0; }
 
