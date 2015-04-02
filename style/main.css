@@ -3,12 +3,16 @@ html, body {
   margin: 0;
   padding: 0;
   background: #869de0;
+  background-image: url("edbg.png");
+  background-repeat: no-repeat;
   color: #0033CC;
   font-family: "Clear Sans", "Helvetica Neue", Arial, sans-serif;
   font-size: 18px; }
 
+
 body {
-  margin: 80px 0; }
+  padding-top: 80px;
+}
 
 .heading:after {
   content: "";
@@ -153,6 +157,7 @@ hr {
   border-radius: 6px;
   width: 500px;
   height: 500px;
+  opacity: .9;
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box; }
@@ -180,7 +185,8 @@ hr {
       margin-top: 222px; }
     .game-container .game-message .lower {
       display: block;
-      margin-top: 59px; }
+      margin-top: 59px; 
+    }
     .game-container .game-message a {
       display: inline-block;
       background: #0033CC;
